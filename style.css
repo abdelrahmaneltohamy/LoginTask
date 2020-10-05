@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+}
+h1{
+  color:maroon;
+  padding-top: 100px;
+
+}
+form{
+  text-align: center;
+    color: rebeccapurple;
+}
+a{
+  color: teal;
+}
+
+h5{
+  color: rebeccapurple;
+}
+h5,p{
+  font-family: Georgia;
+}
+.contacts p{
+  color: rebeccapurple;
+}
+footer{
+  padding-left: 220px;
+}

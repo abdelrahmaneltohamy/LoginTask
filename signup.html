@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Signup</title>
+  </head>
+  <body>
+      <div style="background-image: url('background.jpg');">
+    <main>
+      <section id="overlay">
+        <div style="background-image: url('background.jpg');">
+        <form action="submission.html" method="POST">
+          <h1>Login</h1>
+
+          <section class="emailform">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required minlength="8" maxlength="25">
+          </section>
+          <hr>
+          <section class="passwordform">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required minlength="8" maxlength="15">
+          </section>
+          <hr>
+          <section class="usernameform">
+            <label for="username">Username</label>
+      			<input type="text" name="username" id="username" required minlength="3" maxlength="15">
+          </section>
+          <hr>
+          <section class="ageform">
+            <label for="username">age</label>
+      			<input type="number" name="username" id="username" required min="3" max="99">
+          </section>
+          <hr>
+          <section class="stayloggedinform">
+            <span>stay logged in</span>
+            <br>
+            <input type="checkbox" name="stayloggedinform" id="stayloggedin" value="yes">
+            <label for="yes">Yes</label>
+          </section>
+          <hr>
+          <section class="genderform">
+            <span>Gender</span>
+            <br>
+            <input type="radio" name="genderform" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="genderform" id="female" value="female">
+            <label for="female">Female</label>
+          </section>
+          <hr>
+          <section class="submission">
+             <input type="submit" value="login">
+          </section>
+          <section class="newUser">
+            <p>Old User?</p>
+            <a href="./loginPage.html">Login</a>
+          </section>
+          </section>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="contacts">
+        <h5>
+          Contact us:
+        </h5>
+        <p>
+          Telephone number: +201018534257<br>
+          Email: support@alwaysglutton.com
+        </p>
+
+      </section>
+    </footer>
+  </body>
+</html>
