@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <script src="myScript.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Menu page</title>
+  </head>
+  <body>
+    <div  class="foodbackground" style="background-image: url('background.jpg');">
+  <main>
+
+    <h1 id="demo" name="demo">Pick up your order <h1>
+    <section class="pizzacheck">
+      <input type="checkbox" id="pizza" name="pizza" value="50">
+      <label for="pizza"> Pizza</label><br>
+      <section class="amountform">
+        <label for="pizzaamount">amount:</label>
+        <input type="number" value=1 name="pizzaamount" id="pizzaamount" min="0" max="10">
+      </section>
+    </section>
+    <section class="burgercheck">
+      <input type="checkbox" id="burger" name="burger" value="45">
+      <label for="burger"> Burger</label><br>
+      <section class="bun-type">
+        <label for="bun">What type of bun would you like?</label>
+        <select name="bun" id="bun">
+          <option value="sesame">Sesame</option>
+          <option value="potatoe">Potato</option>
+          <option value="pretzel">Pretzel</option>
+        </select>
+        <section class="amountform">
+          <label for="burgeramount">amount:</label>
+          <input type="number" value=1 name="burgeramount" id="burgeramount" min="0" max="10">
+        </section>
+      </section>
+
+    </section>
+    <section class="crepecheck">
+      <input type="checkbox" id="crepe" name="crepe" value="35">
+      <label for="crepe"> Crepe</label><br>
+      <section class="amountform">
+        <label for="crepeamount">amount:</label>
+        <input type="number" value=1 name="crepeamount" id="crepeamount" min="0" max="10">
+      </section>
+    </section>
+    <section class="checkout">
+      <button class="checkoutbutton" type="button" onclick="checkoutBalance()">Checkout</button>
+    </section>
+    <h5 id="confirmed" name="confirmed"> <h5>
+
+    </main>
+  </body>
+</html>

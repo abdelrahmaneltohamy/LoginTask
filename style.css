@@ -10,12 +10,31 @@ form{
   text-align: center;
     color: rebeccapurple;
 }
+.pizzacheck,.crepecheck,.burgercheck,.checkout{
+  text-align: center;
+    color: rebeccapurple;
+    border: dotted;
+}
+#demo{
+  text-align: center;
+
+}
 a{
   color: teal;
 }
+.checkoutbutton:hover {
+  color:LimeGreen;
+  transition: all 1s ease-out 0.2s;
 
+}
+.foodbackground{
+  position: relative;
+}
 h5{
   color: rebeccapurple;
+}
+#confirmed{
+  text-align: center;
 }
 h5,p{
   font-family: Georgia;
